@@ -20,3 +20,24 @@
  1 REST Controllers in Spring Boot are the components that handle HTTP requests and generate responses for a RESTful web service.
  2 They are defined using the @RestController annotation, which is a specialized version of the @Controller annotation combined with @ResponseBody.
  3 This setup allows the controller to handle REST API requests such as GET, POST, DELETE, and PUT, and return the response directly to the client without rendering a view.
+
+
+
+ Prequistics:
+ -------------
+ 1 Java Development Kit (JDK)
+ 2 Integrated Development Environment (IDE)
+ 3 Maven or Gradle
+ 4 Hiberante
+ 4 Spring Boot
+
+
+
+ TO RUN THE FRONTEND
+ ---------------------
+
+ --> Defautly in cloned application , you did get any node modules.so to install them simply use command:
+     /// npm install ////
+ -->And to run app , use the following command on console:
+    /// npm start
+    
