@@ -1,8 +1,3 @@
-
-
-
-
-
 import React, { useState, useEffect } from 'react';
 import { AppBar, Toolbar, Box, Grid, Typography, Button, TextField } from "@mui/material";
 
@@ -19,8 +14,8 @@ const Navbar = ({ setSearchKeyword }) => {
       <Grid container spacing={2} sx={{ margin: "2%" }}>
         <Box sx={{ flexGrow: 1 }}>
           <AppBar position="static" style={{ background: '#ADD8E6' }}>
-            <Toolbar variant="dense">
-              <Typography variant="h4" align='Left' component="div" sx={{ flexGrow: 1, fontFamily:"revert", fontSize:"500", color:"black" }}>
+            <Toolbar variant="dense" sx={{ minHeight: '60px' }}> {/* Decreased height of the Toolbar */}
+              <Typography variant="h4" align='Left' component="div" sx={{ flexGrow: 1, fontFamily: "revert", fontSize: "500", color: "black" }}>
                 Project - Job Portal
               </Typography>
               <TextField
