@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Typography, TextField, Button, Paper, Box } from '@mui/material';
 import axios from 'axios';
@@ -33,7 +32,7 @@ const Create = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:8080/jobPost', form);
+      await axios.post('http://localhost:8080/jobPosts', form);
       navigate('/'); // Navigate to home after submission
     } catch (error) {
       console.error('Error creating post:', error);
