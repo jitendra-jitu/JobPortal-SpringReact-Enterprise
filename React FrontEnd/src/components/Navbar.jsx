@@ -33,7 +33,7 @@ const Navbar = ({ setSearchKeyword }) => {
                 <Button variant="outlined" href='http://localhost:3000/create'>Add Job</Button>
               </Box>
               <Box sx={{ m: 0.5, mx: 'auto', width: 180 }}>
-                <Button variant="outlined" href='https://www.linkedin.com/in/jitendra-jitu-019b15251/'>Contact Us</Button>
+                <Button variant="outlined" href='mailto:gudelajitendra987@gmail.com/'>Contact Us</Button>
               </Box>
             </Toolbar>
           </AppBar>
